@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <div>
           <div>
             <a href="#">
-              <img src="Logo" alt="Logo" />
+              <img src={Logo} alt="Logo" />
             </a>
           </div>
         </div>
