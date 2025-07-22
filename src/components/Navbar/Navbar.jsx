@@ -14,6 +14,9 @@ const Navbar = () => {
           </div>
         </div>
         {/* Search bar and other button */}
+        <div>
+            <input placeholder="search" />
+        </div>
       </div>
       {/* lower Navbar */}
       <div></div>
