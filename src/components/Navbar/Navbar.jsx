@@ -14,8 +14,9 @@ const Navbar = () => {
           </div>
         </div>
         {/* Search bar and other button */}
-        <div>
-            <input placeholder="search" />
+        <div className="group">
+            <input placeholder="search"
+            className="w-[200px] sm:w-[200px] group-hover:w-[300px]" />
         </div>
       </div>
       {/* lower Navbar */}
