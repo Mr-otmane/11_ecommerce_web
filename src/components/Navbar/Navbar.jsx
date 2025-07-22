@@ -13,6 +13,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
+        {/* Search bar and other button */}
       </div>
       {/* lower Navbar */}
       <div></div>
