@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* Search bar and other button */}
         <div className="group">
             <input placeholder="search"
-            className="w-[200px] sm:w-[200px] group-hover:w-[300px]" />
+            className="w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border border-gray-300"  />
         </div>
       </div>
       {/* lower Navbar */}
