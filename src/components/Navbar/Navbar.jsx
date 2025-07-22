@@ -9,14 +9,18 @@ const Navbar = () => {
         <div>
           <div>
             <a href="#">
-              <img src={Logo} alt="Logo" />
+              <img src={Logo} alt="Logo"
+              className="w-10 uppercase"
+              />
             </a>
           </div>
         </div>
         {/* Search bar and other button */}
         <div className="group">
-            <input placeholder="search"
-            className="w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none focus:border-1 focus:border-primary"  />
+          <input
+            placeholder="search"
+            className="w-[200px] sm:w-[200px] group-hover:w-[300px] transition-all duration-300 rounded-full border border-gray-300 px-2 py-1 focus:outline-none focus:border-1 focus:border-primary"
+          />
         </div>
       </div>
       {/* lower Navbar */}
