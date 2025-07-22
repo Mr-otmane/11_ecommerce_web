@@ -7,7 +7,9 @@ const Navbar = () => {
         <div>
             <div>
                <div>
-                <a href=""></a>
+                <a href="#">
+                    <img src="" alt="" />
+                </a>
                 </div> 
             </div>
         </div>
