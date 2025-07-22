@@ -8,10 +8,9 @@ const Navbar = () => {
       <div>
         <div>
           <div>
-            <a href="#">
-              <img src={Logo} alt="Logo"
-              className="w-10 uppercase"
-              />
+            <a href="#" className="font-bold text-2xl">
+              <img src={Logo} alt="Logo" className="w-10" />
+              Shopsy
             </a>
           </div>
         </div>
