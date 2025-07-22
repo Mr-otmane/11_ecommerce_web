@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       {/* upper Navbar */}
-      <div>
+      <div className="bg-primary/40 py-3 sm:py-0">
         <div className="container flex justify-between items-center">
           <div>
             <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
