@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from "../../assets/logo.png"
 
 const Navbar = () => {
   return (
@@ -6,7 +7,9 @@ const Navbar = () => {
         {/* upper Navbar */}
         <div>
             <div>
-                <a href="#"></a>
+                <a href="#">
+                    <img src={Logo} alt="Logo" />
+                </a>
             </div>
         </div>
         {/* lower Navbar */}
