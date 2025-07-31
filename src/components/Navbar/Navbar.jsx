@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             {/* search bar and order button */}
             <div>
-                <div>
+                <div className='group'>
                     <input type="text" placeholder='search'
                     className='w-[200px] sm:w-[200px] group-hover:w-[300px]' />
                 </div>
