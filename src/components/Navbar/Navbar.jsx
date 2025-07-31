@@ -10,7 +10,9 @@ const Navbar = () => {
                 <a href="#">
                     <img src={Logo} alt="Logo" />
                 </a>
+
             </div>
+            {/* search bar and order button */}
         </div>
         {/* lower Navbar */}
         <div></div>
