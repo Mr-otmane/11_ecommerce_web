@@ -8,6 +8,9 @@ export default {
         secondary:"#ed8900",
       }
     },
+    container:{
+      center:true,
+    }
   },
   plugins: [],
 };
