@@ -7,12 +7,19 @@ const Navbar = () => {
         {/* upper Navbar */}
         <div>
             <div>
+                <div>
                 <a href="#">
                     <img src={Logo} alt="Logo" />
                 </a>
 
             </div>
             {/* search bar and order button */}
+            <div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
         </div>
         {/* lower Navbar */}
         <div></div>
