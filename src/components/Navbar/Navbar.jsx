@@ -8,12 +8,9 @@ const Navbar = () => {
       <div>
         <div>
           <div>
-            <a href="#">
-              <img src={Logo} alt="Logo" 
-              className="w-10 uppercase"
-              
-              />
-                Shopsy
+            <a href="#" className="font-bold">
+              <img src={Logo} alt="Logo" className="w-10 " />
+              Shopsy
             </a>
           </div>
           {/* search bar and order button */}
