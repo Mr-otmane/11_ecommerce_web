@@ -10,6 +10,9 @@ export default {
     },
     container:{
       center:true,
+      padding:{
+        
+      }
     }
   },
   plugins: [],
